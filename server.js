@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 
 const uri = process.env.ATLAS_URI;
-
+console.log(uri);
 
 mongoose.connect(uri);
 const database = mongoose.connection;
