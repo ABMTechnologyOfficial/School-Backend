@@ -44,7 +44,7 @@ async function login(req, res) {
     } else {
         res.send(JSON.stringify({
             "result": "false",
-            "msg": "Parameter Required userId, password"
+            "msg": "Parameter Required username, password"
         }));
     }
 }
@@ -162,7 +162,7 @@ async function attendanceUpdate(req, res, mode) {
     } else {
         res.send(JSON.stringify({
             "result": "false",
-            "msg": "Invalid Id"
+            "msg": "Invalid id"
         }));
     }
 }
